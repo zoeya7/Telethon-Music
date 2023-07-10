@@ -35,3 +35,11 @@ PLAY_TEXT = """
 ‣ `?play` - To Play Audio from Else Reply to audio file.
 ‣ `?vplay` - To Stream Videos (HEROKU_MODE > Doesn't support).
 """
+
+MONEY_TEXT = """
+**✘ You might ask how to easily earn money? **
+
+‣ REGISTER - Make an account for your self.
+‣ JOIN GROUP PREDICTION - learn how to play and make profit.
+‣ GET THE MONEY - As easy as that just to make money.
+"""
