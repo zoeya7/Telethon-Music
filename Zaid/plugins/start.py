@@ -52,12 +52,3 @@ async def start(event):
      if event.is_group:
        await event.reply("**REGISTER LINK :** http://www.9987up.cc/#/register?r_code=65766502")
        return
-
-@Zaid.on(events.NewMessage(pattern="^[?!/]group$"))
-async def start(event):
-     if event.is_group:
-       await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[,
-        [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
-        [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
-       return
