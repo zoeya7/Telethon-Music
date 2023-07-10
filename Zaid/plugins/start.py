@@ -25,7 +25,7 @@ async def start(event):
              caption=PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
+        [Button.url("🗣️ Channel", f"https://t.me/JASMINE_TCLOTTERY"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
@@ -43,7 +43,7 @@ async def _(event):
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
+        [Button.url("🗣️ Channel", f"https://t.me/JASMINE_TCLOTTERY"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
