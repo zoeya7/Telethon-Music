@@ -23,14 +23,14 @@ async def start(event):
        await event.client.send_file(event.chat_id,
              Config.START_IMG,
              caption=PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/JASMINE_TCLOTTERY"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
+        [Button.url("➕ 𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐜𝐡𝐚𝐭", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")],
+        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/aliaxtc"), Button.url("🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞", f"https://tclotteryvip.com")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
     if event.is_group:
-       await event.reply("**ʜᴇʏ! ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ✅**")
+       await event.reply("**ʜᴇʏ{}! ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ✅**")
        return
 
 
@@ -41,28 +41,17 @@ async def _(event):
         return
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/JASMINE_TCLOTTERY"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
+        [Button.url("➕ 𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐜𝐡𝐚𝐭", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")],
+        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/aliaxtc"), Button.url("🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞", f"https://tclotteryvip.com")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
+
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]register$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**REGISTER LINK :** http://www.9987up.cc/#/register?r_code=65766502")
-       return
-
-@Zaid.on(events.NewMessage(pattern="^[?!/]group$"))
-async def start(event):
-    if Config.MANAGEMENT_MODE == "ENABLE":
-        return
-    if event.is_group:
-       await event.client.send_file(event.chat_id,
-             Config.START_IMG,
-             caption=PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("💸 Register", f"http://www.9987up.cc/#/register?r_code=65766502")],
-        [Button.url("🗣️ Channel", f"https://t.me/JASMINE_TCLOTTERY"), Button.url("📣 Owner", f"https://t.me/TrishaTC_Reborn")],
-        [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
+       await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
+        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")],
+        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/aliaxtc"), Button.url("🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞", f"https://tclotteryvip.com")]])
        return
