@@ -57,7 +57,7 @@ async def start(event):
 @Zaid.on(events.NewMessage(pattern="^[?!/]money$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**ttps://tclotteryvip.com 🌐**")
+       await event.reply("**https://tclotteryvip.com 🌐**")
        return
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]channel$"))
