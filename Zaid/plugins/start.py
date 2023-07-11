@@ -30,7 +30,7 @@ async def start(event):
        return
 
     if event.is_group:
-       await event.reply("**ʜᴇʏ{}! ɪ'ᴍ ꜱᴛɪʟʟ ᴀʟɪᴠᴇ ✅**")
+       await event.reply("**Hey Im online ✅**")
        return
 
 
@@ -51,7 +51,17 @@ async def _(event):
 @Zaid.on(events.NewMessage(pattern="^[?!/]register$"))
 async def start(event):
      if event.is_group:
-       await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
-        [Button.url("📲 𝐑𝐞𝐠𝐢𝐬𝐭𝐞𝐫", f"http://www.9987up.cc/#/register?r_code=WGxNp30387")],
-        [Button.url("📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", f"https://t.me/aliaxtc"), Button.url("🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞", f"https://tclotteryvip.com")]])
+       await event.reply("**https://www.9987up.cc/#/register?r_code=WGxNp30387 📲**")
+       return
+
+@Zaid.on(events.NewMessage(pattern="^[?!/]money$"))
+async def start(event):
+     if event.is_group:
+       await event.reply("**ttps://tclotteryvip.com 🌐**")
+       return
+
+@Zaid.on(events.NewMessage(pattern="^[?!/]channel$"))
+async def start(event):
+     if event.is_group:
+       await event.reply("**https://t.me/aliaxtc ✅**")
        return
