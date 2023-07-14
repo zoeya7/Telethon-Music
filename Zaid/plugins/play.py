@@ -128,7 +128,7 @@ async def _(event):
      await event.delete()
 
 btnn =[
-    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url("cʜᴀɴɴᴇʟ 🇮🇳", url=f"t.me/{Config.CHANNEL}")],
+    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/Musicbot_update"), Button.url("cʜᴀɴɴᴇʟ 📂", url=f"t.me/aliaxtc")],
     [Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
 
 
