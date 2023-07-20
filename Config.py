@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "23863563"))
-    API_HASH = os.environ.get("API_HASH", "2923da75525a566b9e9bc964642ff921")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6379844676:AAGUNAgJaC2gr6Fmmv68R_YIIheV_sJfcUc")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJ8Buz8x0xP00M07Vsy-inXVkZeV-ArwbtwxiUtSkqIqc6Ff3d2Ivtszlf_H-UVUh3fL7UJ0BKOglYeR_yQ9O3JeSd3h_nyB1QKLBPGWTD1f6g2ZtEpKqLrf8d6B5Ekhh5v-8TAZ37NhKzIdW9AxHqTtRxiTq0i0_quxFXwY-_ROaTDIhS29Iizn8N6ad73io7JfU5bRQYp1Wg5qGlWd9YeNnkauoxkv71aTNPTfVCrePbf1Tuy_CyBUG37gFJ3SrKsIfUFxfLAAGxjVpr5SQFnqJe-rSAahuqOT1xBho67YE7fpRoHL-OUhIKXON79dsuEa5LJ_J8D727e3wfcO9DhDUBE=")
+    API_ID = int(os.environ.get("API_ID", "21626173"))
+    API_HASH = os.environ.get("API_HASH", "195b7e1cd00d5c7519b2fc9d93b01075")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5850733039:AAEH_uTN3MCSTWwul2XNP35pL4tn3k5BoXk")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzgBu7Es0XsMx7iUVbFlz3PNhG3tnGd6akX0wInE9vi8BvWDsvCqW6dyJ9snNjbYqxws3GWH3p7IOOqdolj5AtVUlx3dMyJqZAUb3LafOY3YWNq0w2QaHUhIZSdgU9w28uk4Wvm9vE2AFlyCz29G5c5RbJIBnbHTYARPjRPEtpA8WlFtSy8O39JdhwdyPTlffPP_pF7BLFC9rWbPhDBV45218mUWd4dpzqBQzi9KOT8O7KC_JaZcrj3g7NcuM9OetXyRXBEMz7VNRBmXRS0yf-CAkcOM7BSkbXZJ-cTRcMm27JvbMJpLv0Yfy7AAlwwSwZogUOH2L8HySV4z8Xy57AWTTgY=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Alia_MusicBot")
