@@ -64,7 +64,7 @@ async def start(event):
         [Button.url("Check it out", f"https://t.me/LittleTreasureTC")]])
        return
 
-@Zaid.on(events.NewMessage(pattern="^[?!/]Contact$"))
+@Zaid.on(events.NewMessage(pattern="^[?!/]contact$"))
 async def start(event):
      if event.is_group:
        await event.reply("**Contact Us Now**",buttons=[
