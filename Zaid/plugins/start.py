@@ -53,18 +53,20 @@ async def _(event):
 @Zaid.on(events.NewMessage(pattern="^[?!/]register$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**https://www.9987up.cc/#/register?r_code=64326179373 📲**")
+       await event.reply("**Register now!**",buttons=[
+        [Button.url("Register Here 🤍", f"http://www.9987up.cc/#/register?r_code=64326179373")]])
        return
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]money$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**Come and check it out 🌐**",buttons=[
-        [Button.url("Money Here", f"https://t.me/LittleTreasureTC")]])
+       await event.reply("**I know you want to earn money, Come and join**",buttons=[
+        [Button.url("Check it out", f"https://t.me/LittleTreasureTC")]])
        return
 
-@Zaid.on(events.NewMessage(pattern="^[?!/]channel$"))
+@Zaid.on(events.NewMessage(pattern="^[?!/]Contact$"))
 async def start(event):
      if event.is_group:
-       await event.reply("**https://t.me/ZoeyaTC ✅**")
+       await event.reply("**Contact Us Now**",buttons=[
+        [Button.url("Hello 📞", f"https://t.me/ZoeyaTC")]])
        return
